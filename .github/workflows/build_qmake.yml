@@ -1,6 +1,7 @@
 name: QMake Build Matrix
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
     paths: 
